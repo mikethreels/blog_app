@@ -1,0 +1,27 @@
+# -*- shell-script -*-
+# Copyright 1999-2020 ImageMagick Studio LLC
+# Definitions of optional features and configuration values for this build.
+# Intended for use by test scripts.
+MAGICK_FEATURES='DPC HDRI Cipher OpenMP'
+top_srcdir='/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23'
+top_builddir='/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23'
+
+set -a
+COMPARE="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/utilities/magick compare"
+COMPOSITE="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/utilities/magick composite"
+CONJURE="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/utilities/magick conjure"
+CONVERT="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/utilities/magick convert"
+DISPLAY="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/utilities/magick display"
+IDENTIFY="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/utilities/magick identify"
+MAGICK="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/utilities/magick"
+MONTAGE="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/utilities/magick montage"
+VALIDATE="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/tests/validate"
+DRAWTEST="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/tests/drawtest"
+WANDTEST="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/tests/wandtest"
+LD_LIBRARY_PATH="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/MagickCore/.libs:/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/MagickWand/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/coders"
+MAGICK_CONFIGURE_PATH="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/config:/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/config"
+MAGICK_FILTER_MODULE_PATH="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/filters"
+MAGICK_FONT="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/PerlMagick/demo/Generic.ttf"
+PATH="/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/utilities:/home/michael/Desktop/web-projects/Ruby/blogger/ImageMagick-7.0.10-23/tests:${PATH}"
+set +a
