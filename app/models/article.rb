@@ -2,9 +2,8 @@ class Article < ApplicationRecord
     has_many :comments
     has_many :taggings
     has_many :tags, through: :taggings, dependent: :delete_all
-    has_attached_file :image, styles: { medium: "300x300>", thumb: "100x100>" }
+    has_attached_file :image
     validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png"]
-    has_many :attachments
 
     def tag_list
         self.tags.collect do |tag|
